@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Westlands Residences exterior illustration</title>
+  <desc id="desc">A modern apartment block with balconies, windows, and a warm courtyard.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8dc8ff"/>
+      <stop offset="100%" stop-color="#eef7ff"/>
+    </linearGradient>
+    <linearGradient id="building" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d8d2ca"/>
+      <stop offset="100%" stop-color="#b8b1a7"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#b04f50"/>
+      <stop offset="100%" stop-color="#7f3237"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"/>
+  <rect y="340" width="800" height="160" fill="#c59f70"/>
+  <rect x="95" y="50" width="610" height="300" rx="18" fill="url(#building)"/>
+  <rect x="70" y="30" width="70" height="320" rx="12" fill="url(#accent)"/>
+  <rect x="660" y="40" width="70" height="310" rx="12" fill="url(#accent)"/>
+  <rect x="95" y="245" width="610" height="34" fill="#f1e5cf"/>
+  <rect x="118" y="278" width="564" height="72" fill="#d7cab9"/>
+  <g fill="#f2f6fb">
+    <rect x="145" y="92" width="42" height="52" rx="3"/>
+    <rect x="225" y="92" width="42" height="52" rx="3"/>
+    <rect x="305" y="92" width="42" height="52" rx="3"/>
+    <rect x="385" y="92" width="42" height="52" rx="3"/>
+    <rect x="465" y="92" width="42" height="52" rx="3"/>
+    <rect x="545" y="92" width="42" height="52" rx="3"/>
+    <rect x="145" y="165" width="42" height="52" rx="3"/>
+    <rect x="225" y="165" width="42" height="52" rx="3"/>
+    <rect x="305" y="165" width="42" height="52" rx="3"/>
+    <rect x="385" y="165" width="42" height="52" rx="3"/>
+    <rect x="465" y="165" width="42" height="52" rx="3"/>
+    <rect x="545" y="165" width="42" height="52" rx="3"/>
+  </g>
+  <g fill="#ece8df" stroke="#55514f" stroke-width="4">
+    <path d="M600 78c18 0 34 15 34 34v24h-68v-24c0-19 16-34 34-34z"/>
+    <path d="M600 148c18 0 34 15 34 34v24h-68v-24c0-19 16-34 34-34z"/>
+    <path d="M600 218c18 0 34 15 34 34v24h-68v-24c0-19 16-34 34-34z"/>
+    <path d="M180 78c18 0 34 15 34 34v24h-68v-24c0-19 16-34 34-34z"/>
+    <path d="M180 148c18 0 34 15 34 34v24h-68v-24c0-19 16-34 34-34z"/>
+    <path d="M180 218c18 0 34 15 34 34v24h-68v-24c0-19 16-34 34-34z"/>
+  </g>
+  <g fill="#5e4430">
+    <rect x="135" y="278" width="34" height="110"/>
+    <rect x="250" y="278" width="34" height="110"/>
+    <rect x="365" y="278" width="34" height="110"/>
+    <rect x="480" y="278" width="34" height="110"/>
+    <rect x="595" y="278" width="34" height="110"/>
+  </g>
+  <rect x="0" y="0" width="800" height="500" fill="url(#sky)" opacity=".04"/>
+</svg>

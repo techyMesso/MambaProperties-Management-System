@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Runda Court living room illustration</title>
+  <desc id="desc">A bright living room with large windows, sofa, coffee table, plant, and kitchen view.</desc>
+  <defs>
+    <linearGradient id="room" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7f2ea"/>
+      <stop offset="100%" stop-color="#ece3d4"/>
+    </linearGradient>
+    <linearGradient id="window" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#cfe9ff"/>
+      <stop offset="100%" stop-color="#edf7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#room)"/>
+  <polygon points="0,348 800,302 800,500 0,500" fill="#ccb18b"/>
+  <rect x="52" y="72" width="210" height="214" rx="12" fill="url(#window)"/>
+  <rect x="78" y="72" width="8" height="214" fill="#efe8dd"/>
+  <rect x="152" y="72" width="8" height="214" fill="#efe8dd"/>
+  <rect x="226" y="72" width="8" height="214" fill="#efe8dd"/>
+  <rect x="294" y="86" width="164" height="246" rx="18" fill="#efe6da"/>
+  <rect x="314" y="146" width="124" height="112" rx="30" fill="#d3c2aa"/>
+  <rect x="318" y="112" width="120" height="48" rx="22" fill="#d9ccb9"/>
+  <rect x="362" y="126" width="54" height="24" rx="10" fill="#cdbda8"/>
+  <rect x="346" y="224" width="54" height="26" rx="10" fill="#f2ebdf"/>
+  <rect x="455" y="252" width="120" height="78" rx="16" fill="#7b5537"/>
+  <rect x="468" y="266" width="94" height="52" rx="8" fill="#8a6648"/>
+  <rect x="604" y="220" width="134" height="160" rx="16" fill="#ece1d2"/>
+  <rect x="625" y="236" width="92" height="84" rx="12" fill="#d7d2cc"/>
+  <rect x="648" y="165" width="44" height="74" rx="8" fill="#795f43"/>
+  <circle cx="645" cy="350" r="34" fill="#729f6d"/>
+  <rect x="629" y="276" width="32" height="92" rx="14" fill="#5b704c"/>
+  <rect x="516" y="118" width="84" height="60" rx="6" fill="#465d76"/>
+  <rect x="612" y="110" width="66" height="48" rx="6" fill="#465d76"/>
+  <rect x="520" y="122" width="76" height="52" rx="4" fill="#a0cbd7"/>
+  <rect x="616" y="114" width="58" height="40" rx="4" fill="#b2d3da"/>
+  <rect x="0" y="0" width="800" height="500" fill="#ffffff" opacity=".02"/>
+</svg>

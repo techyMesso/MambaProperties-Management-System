@@ -1,0 +1,107 @@
+.table {
+  inline-size: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  border: 1px solid var(--mui-palette-divider);
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: var(--mui-palette-background-paper);
+
+  [align='right'] > * {
+    text-align: end;
+  }
+  [align='center'] > * {
+    text-align: center;
+  }
+
+  thead {
+    text-transform: uppercase;
+    color: var(--mui-palette-text-primary);
+
+    th {
+      font-weight: 700;
+      font-size: 0.75rem;
+      letter-spacing: 0.06em;
+      line-height: 1.8462;
+      text-align: start;
+      block-size: 56px;
+      background-color: var(--mui-palette-customColors-tableHeaderBg);
+      border-block-end: 1px solid var(--mui-palette-divider);
+      &:not(:first-of-type):not(:last-of-type) {
+        padding-block: 0.7rem;
+        padding-inline: 1rem;
+      }
+      &:first-of-type {
+        &:not(:has(input[type='checkbox'])) {
+          padding-block: 0.7rem;
+          padding-inline: 1.25rem 1rem;
+        }
+        &:has(input[type='checkbox']) {
+          padding-inline-start: 0.6875rem;
+        }
+      }
+      &:last-of-type {
+        padding-block: 0.7rem;
+        padding-inline: 1rem 1.25rem;
+      }
+    }
+  }
+
+  tbody {
+    color: var(--mui-palette-text-secondary);
+
+    th,
+    td {
+      font-size: 0.9375rem;
+      line-height: 1.4667;
+      block-size: 52px;
+      &:not(:first-of-type):not(:last-of-type) {
+        padding-block: 0.62rem;
+        padding-inline: 1rem;
+      }
+      &:first-of-type {
+        &:not(:has(input[type='checkbox'])) {
+          padding-block: 0.62rem;
+          padding-inline: 1.25rem 1rem;
+        }
+        &:has(input[type='checkbox']) {
+          padding-inline-start: 0.6875rem;
+        }
+      }
+      &:last-of-type {
+        padding-block: 0.62rem;
+        padding-inline: 1rem 1.25rem;
+      }
+    }
+
+    tr {
+      transition: background-color 140ms ease-in-out;
+    }
+
+    tr:hover {
+      background-color: var(--mui-palette-action-hover);
+    }
+
+    tr:not(:last-child) td,
+    tr:not(:last-child) th {
+      border-block-end: 1px solid var(--mui-palette-divider);
+    }
+  }
+}
+
+.cellWithInput input {
+  inline-size: 100%;
+  background-color: transparent;
+  font-size: inherit;
+  color: inherit;
+  border-radius: var(--mui-shape-customBorderRadius-sm);
+  padding-block: 6px;
+  padding-inline: 10px;
+  margin-inline: -10px;
+
+  &:focus-visible {
+    outline: 1px solid var(--mui-palette-primary-main);
+  }
+}

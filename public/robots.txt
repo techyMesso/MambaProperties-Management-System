@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and private routes
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /api/
+
+# Allow important pages
+Allow: /
+Allow: /pricing
+Allow: /login
+Allow: /register
+Allow: /forgot-password
+Allow: /reset-password
+
+# Sitemap location
+Sitemap: https://mambaproperties.com/sitemap.xml

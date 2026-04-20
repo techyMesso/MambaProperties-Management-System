@@ -1,0 +1,133 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+.pnpm-store
+.npm
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# testing
+/coverage
+.nyc_output
+
+# next.js
+/.next/
+/.next_backup_*/
+/.next_prev_build_*/
+/out/
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+Thumbs.db
+*.pem
+*.swp
+*.swo
+*.swn
+*~
+*.tmp
+*.bak
+*.orig
+*.pid
+*.seed
+*.pid.lock
+
+# editor and tooling
+.prettiercache
+.eslintcache
+.stylelintcache
+.parcel-cache
+.history
+.vscode
+.idea
+.fleet
+.project
+.settings
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# vercel
+.vercel
+.turbo
+.cache
+
+# tests/e2e
+/test-results
+/playwright-report
+/cypress/videos
+/cypress/screenshots
+/cypress/results
+/coverage-final.json
+/junit.xml
+
+# storybook
+/storybook-static
+
+# local temp
+/tmp
+/logs
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# python
+__pycache__/
+*.py[cod]
+
+.Python
+venv/
+.venv/
+
+# python/hidden
+*.egg-info/
+dist/
+build/
+
+# supabase local
+supabase/.branches
+supabase/.temp
+supabase/.local
+supabase/sql/
+.supabase
+
+# docker
+docker-compose.override.yml
+docker-compose.local.yml
+
+# icon generated file
+src/assets/iconify-icons/generated-icons.js
+src/assets/iconify-icons/generated-icons.css
+
+# firebase
+firebase-debug.log
+firebase-debug.*.log
+
+# serverless & cloud
+.serverless/
+.dynamodb/
+.functions/
+
