@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.2.218",
-    "@iconify/tools": "^4.0.4",
+    "@iconify/tools": "^5.0.14",
     "@iconify/utils": "^2.1.24",
     "autoprefixer": "^10.4.19",
     "eslint": "^9.39.3",
